@@ -1,0 +1,589 @@
+baseURL = "https://cheret.tech"
+canonifyURLs = true
+# [en, zh-cn, fr, pl, ...] determines default content language
+defaultContentLanguage = "en"
+# theme
+theme = "uBlogger"
+# themes directory
+themesDir = "themes"
+
+# website title
+title = "Mark Cheret - Cyber Security Consultant"
+
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log
+enableGitInfo = true
+# whether to use emoji code
+enableEmoji = true
+
+[languages]
+  [languages.en]
+    weight = 1
+    # language code
+    languageCode = "en"
+    # language name
+    languageName = "English"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under the MIT License."
+    # Menu config
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "tags"
+        url = "/tags/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "categories"
+        url = "/categories/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "about"
+        url = "/about/"
+        title = "about Mark Cheret"
+        weight = 1
+    [languages.en.params]
+      # site description
+      description = "Cyber Security Consultant | Online Content Creator | Exponential Coach"
+      # site keywords
+      keywords = ["Security", "Cloud"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "Mark Cheret"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "lunr"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = ""
+          searchKey = ""
+      # Home page config
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/20191020_Portrait_Mark_Cheret_Full.jpg"
+          # title shown in home page (HTML format is supported)
+          title = "Mark Cheret"
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "<a href='/categories/cyber-security/'>Cyber Security Consultant</a> | <a href='/categories/online-content/'>Online Content Creator</a> | <a href='/categories/exponential-coaching/'>Exponential Coach</a>"
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.en.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 3
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "markcheret"
+        Linkedin = "markcheret"
+        Twitter = "markcheret"
+        Instagram = "markcheret/"
+        Facebook = "mark.cheret"
+        Telegram = ""
+        Medium = "@markcheret"
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = "UCwJUxXz7mCJR0RPepeggD1Q"
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = "markcheret"
+        Stackoverflow = "2907686/mark-cheret"
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = "cheret"
+        Paypal = "markcheret"
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = "23035098-mark-cheret"
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = "markcheret/"
+        Twitch = "markcheret"
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = "markcheret"
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "mark@cheret.de"
+        DockerHub = "markcheret"
+        Discord = "MarksmanGwB#7152"
+        Leanpub = ""
+        Udemy = ""
+        RSS = true
+        [languages.en.params.social.Mastodon]
+          id = "@markcheret"
+          prefix = "https://noc.social/"
+
+[params]
+  # uBlogger theme version
+  version = "2.0.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "dark"
+  # public git repo url only then enableGitInfo is true
+  gitRepo = "https://github.com/markcheret/footnotes"
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+  fingerprint = ""
+  # date format
+  dateFormat = "02/01/2006"
+  # website images for Open Graph and Twitter Cards
+    images = ["/logo.png"]
+
+  google_fonts = [
+    ["Allerta Stencil", "300, 400, 700"],
+  ]
+  font = "Allerta Stencil"
+  # Header config
+    [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = "/CHERET-Logo.png"
+      # title name
+      name = ""
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = '<a href="/legal/imprint" target="_self">imprint</a> | <a href="/categories/legal/" target="_self">all legal stuff</a>'
+    # whether to show Hugo and theme info
+    hugo = false
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2009
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license= '<a rel="license" href="/legal/license" target="_self">MIT</a>'
+
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (day and month)
+    dateFormat = "02/01"
+    # amount of RSS pages
+    rss = 10
+
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (day and month)
+    dateFormat = "02/01"
+    # amount of RSS pages
+    rss = 10
+
+  # Comment config
+  [params.comment]
+    enable = false
+    [params.comment.remark42]
+      enable = false
+      host = "https://comments.upagge.ru"
+      site = "documentation"
+      locale = "en"
+    # Disqus comment config (https://disqus.com/)
+    [params.comment.disqus]
+      enable = false
+      # Disqus shortname to use Disqus in posts
+      shortname = ""
+    # Gitalk comment config (https://github.com/gitalk/gitalk)
+    [params.comment.gitalk]
+      enable = false
+      owner = ""
+      repo = ""
+      clientId = ""
+      clientSecret = ""
+    # Valine comment config (https://github.com/xCss/Valine)
+    [params.comment.valine]
+      enable = false
+      appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+      appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+      placeholder = ""
+      avatar = "mp"
+      meta= ""
+      pageSize = 10
+      lang = ""
+      visitor = true
+      recordIP = true
+      highlight = true
+      enableQQ = false
+      serverURLs = "https://"
+      # emoji data file name, default is "google.yml"
+      # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+      # located in "themes/uBlogger/assets/data/emoji/" directory
+      # you can store your own data files in the same path under your project:
+      # "assets/data/emoji/"
+      emoji = ""
+    # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
+    [params.comment.facebook]
+      enable = false
+      width = "100%"
+      numPosts = 10
+      appId = ""
+      languageCode = ""
+    # Telegram comments config (https://comments.app/)
+    [params.comment.telegram]
+      enable = false
+      siteID = ""
+      limit = 5
+      height = ""
+      color = ""
+      colorful = true
+      dislikes = false
+      outlined = false
+    # Commento comment config (https://commento.io/)
+    [params.comment.commento]
+      enable = false
+    # Utterances comment config (https://utteranc.es/)
+    [params.comment.utterances]
+      enable = false
+      # owner/repo
+      repo = ""
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
+  # Page config
+  [params.page]
+    # whether to hide a page from home page
+    hiddenFromHomePage = false
+    # whether to hide a page from search results
+    hiddenFromSearch = false
+    # whether to enable twemoji
+    twemoji = false
+    # whether to enable the ruby extended syntax
+    ruby = true
+    # whether to enable the fraction extended syntax
+    fraction = true
+    # whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # whether to show the full text content in RSS
+    rssFullText = false
+    # Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # whether to keep the static table of the contents in front of the post
+      keepStatic = false
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    # Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
+    # KaTeX mathematical formulas config (KaTeX https://katex.org/)
+    [params.page.math]
+      enable = false
+      # default block delimiter is $$ ... $$ and \\[ ... \\]
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # default inline delimiter is $ ... $ and \\( ... \\)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # KaTeX extension copy_tex
+      copyTex = true
+      # KaTeX extension mhchem
+      mhchem = true
+    # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
+    [params.page.mapbox]
+      # access token of Mapbox GL JS
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      # style for the light theme
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      # style for the dark theme
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
+      navigation = true
+      # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
+      geolocate = true
+      # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
+      scale = true
+      # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
+      fullscreen = true
+    # Social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = false
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+
+    # Third-party library config
+    [params.page.library]
+      [params.page.library.css]
+        # someCSS = "some.css"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        # someCSS = "https://cdn.example.com/some.css"
+      [params.page.library.js]
+        # someJavascript = "some.js"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        # someJavascript = "https://cdn.example.com/some.js"
+    # Page SEO config
+    [params.page.seo]
+      # image URL
+      images = []
+      # Publisher info
+      [params.page.seo.publisher]
+        name = "Mark Cheret"
+        logoUrl = "/images/avatar.png"
+
+  # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+  # Site SEO config
+  [params.seo]
+    # image URL
+    image = "/images/Apple-Devices-Preview.png"
+    # thumbnail URL
+    thumbnailUrl = "/images/screenshot.png"
+
+  # Analytics config
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      # [UA-XXXXXXXX-X] google analytics code
+      id = "UA-13106435-14"
+      # whether to use gtag linked
+      gtag = false
+      # whether to anonymize IP
+      anonymizeIP = true
+    # Fathom Analytics
+    [params.analytics.fathom]
+      id = ""
+      # server url for your tracker if you're self hosting
+      server = ""
+    [params.analytics.yandex]
+      id = ""
+
+  # Cookie consent config
+  [params.cookieconsent]
+    enable = true
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+  # CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/uBlogger/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    data = "jsdelivr.yml"
+
+  # Compatibility config
+  [params.compatibility]
+    # whether to use Polyfill.io to be compatible with older browsers
+    polyfill = false
+    # whether to use object-fit-images to be compatible with older browsers
+    objectFit = false
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author config
+[author]
+  name = "cheret.en"
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":year/:month/:title/"
+
+# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  # privacy of the Google Analytics (replaced by params.analytics.google)
+  [privacy.googleAnalytics]
+    # ...
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
