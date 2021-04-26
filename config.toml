@@ -121,7 +121,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Mark Cheret"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "<a href='/categories/cyber-security/'>Cyber Security Consultant</a> | <a href='/categories/online-content/'>Online Content Creator</a> | <a href='/categories/exponential-coaching/'>Exponential Coach</a>"
+          subtitle = "<a href='https://cheret.tech'>Cyber Security Consultant</a> | <a href='https://cheret.de'>Exponential Coach</a> | <a href='https://cheret.org'>Online Content Creator</a>"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
