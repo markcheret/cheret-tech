@@ -1,0 +1,53 @@
+// ==============================
+// Custom style
+// ==============================
+
+hr {
+    margin: 1rem 0;
+    position: relative;
+    border-top: 1px solid $global-border-color;
+    border-bottom: none;
+
+    [theme=dark] & {
+      border-top: 1px solid $global-border-color-dark;
+    }
+}
+
+.home {
+    .home-profile {
+      .home-avatar {
+        img {
+          [theme=dark] & {
+            box-shadow: (0 0 0 .1em #8cc643);
+          }
+        }
+      }
+    }
+  }
+
+  .footer-post-author {
+    color: $global-font-color;
+    border-radius: 7px;
+    border-bottom: solid 2px #161209;
+  
+    [theme=dark] & {
+      color: $global-font-color-dark;
+      background-color: $global-background-secondary-color-dark;
+      border: solid 1px $global-secondary-color-dark;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .page, .content-block-position {
+      width: 100%;
+    }
+  
+    article.single {
+      font-size: 18px;
+  
+      .post {
+        padding: 40px 60px 40px;
+      }
+  
+    }
+  }
