@@ -3,4 +3,4 @@
 	url = https://github.com/uPagge/uBlogger.git
 [submodule "content/legal"]
 	path = content/legal
-	url = git@github.com:cheret-communications/legal.git
+	url = git@github.com:markcheret/legal.git
