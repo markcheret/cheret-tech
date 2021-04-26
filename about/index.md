@@ -1,106 +1,77 @@
-# About uBlogger
+# About
 
 
-{{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger)
-[![GitHub forks](https://img.shields.io/github/forks/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger/fork)
-{{< /style >}}
+> I'm the catalyst to lead people on a purposeful pathway, so that growth, resources and opportunities are activated.
 
-> [:(far fa-kiss-wink-heart fa-fw): uBlogger](https://github.com/upagge/uBlogger) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [uPagge](https://upagge.ru).
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+---
 
-![Hugo Theme uBlogger](/images/Apple-Devices-Preview.png "Hugo Theme uBlogger")
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+<div style="padding:15px;">
 
-### Features
+I'm a Cyber Security Consultant, Online Content Creator and Exponential Coach. I consistently contribute to international training events run by teams distributed across Europe. My activities range from producing one-week-long academies to managing them on-site or remotely, delivering training, or participating. I have experience in producing more than 300 videos, as well as applying agile methods in getting various startups from the first ideation to profitable operation.
 
-#### Performance and SEO
+</div>
+<div style="vertical-align:middle; align:center;">
+<img src="portrait_Mark_Cheret_circle.png" alt="Mark Cheret Portrait" style="width:300px; padding-left:50px;"/>
+</div>
+</div>
 
-* :(fas fa-rocket fa-fw): Optimized for **performance**: [99]/[100] on mobile and [100]/[100] on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
-* :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
-* :(fas fa-search fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
-* :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+---
 
-#### Appearance and Layout
+{{< admonition type="note" title="Values" open="true" >}}
+Purpose | Connection | Growth | Diversity | Adventure
+{{< /admonition >}}
 
-* [:(fas fa-desktop):]/[:(fas fa-mobile):] **Responsive** layout
-* [:(fas fa-sun):]/[:(fas fa-moon):] **[Light]/[Dark]** mode
-* :(fas fa-layer-group fa-fw): Globally consistent **design language**
-* :(fas fa-ellipsis-h fa-fw): **Pagination** supported
-* :(far fa-list-alt fa-fw): Easy-to-use and self-expanding **table of contents**
-* :(fas fa-language fa-fw): **Multilanguage** supported and i18n ready
-* :(fab fa-css3-alt fa-fw): Beautiful **CSS animation**
+{{< admonition title="Mission" type="question" open="true" >}}
+To provide catalytic tools to lead people on a purposeful pathway, so that growth, resources and opportunities are activated.
+{{< /admonition >}}
 
-#### Social and Comment Systems
+{{< admonition title="Vision" type="example" open="true" >}}
+To facilitate and enable humane and conscientious leadership for playful, progressive and adventurous human beings.
+{{< /admonition >}}
 
-* :(far fa-user fa-fw): **Gravatar** supported by [Gravatar](https://gravatar.com)
-* :(fas fa-user-circle fa-fw): Local **Avatar** supported
-* :(far fa-id-card fa-fw): Up to **64** social links supported
-* :(fas fa-share-square fa-fw): Up to **28** share sites supported
-* :(far fa-comment fa-fw): **Disqus** comment system supported by [Disqus](https://disqus.com)
-* :(far fa-comment-dots fa-fw): **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* :(far fa-comment-alt fa-fw): **Valine** comment system supported by [Valine](https://valine.js.org/)
-* :(far fa-comments fa-fw): **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* :(fas fa-comment fa-fw): **Telegram comments** system supported by [Comments](https://comments.app/)
-* :(fas fa-comment-dots fa-fw): **Commento** comment system supported by [Commento](https://commento.io/)
-* :(fas fa-comment-alt fa-fw): **Utterances** comment system supported by [Utterances](https://utteranc.es/)
+{{< admonition title="Methods" type="quote" open="true" >}}
+The core of my work is about coming clean that we're all human beings. Some unique capabilities of humans are
 
-#### Extended Features
+* Connection
+* Creation
+* Emotion
 
-* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
-* :(fas fa-code fa-fw): Automatically **highlighting** code
-* :(far fa-copy fa-fw): **Copy code** to clipboard with one click
-* :(far fa-sticky-note fa-fw): Extended Markdown syntax for **ruby annotation**
-* :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
-* :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$ \KaTeX $](https://katex.org/)
-* :(fas fa-project-diagram fa-fw): **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* :(fas fa-chart-pie fa-fw): **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* :(fas fa-map-marked-alt fa-fw): **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* :(fas fa-music fa-fw): **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* :(fas fa-video fa-fw): **Bilibili player** shortcode
-* :(far fa-bell fa-fw): Kinds of **admonitions** shortcode
-* :(fas fa-align-left fa-fw): **Custom style** shortcode
-* :(fab fa-js-square fa-fw): **Custom script** shortcode
-* :(fas fa-arrow-down fa-fw): **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* ...
+I provide catalytic tools to strengthen trust in yourself and your fellow teammates to boost your team's performance. Some highlights are:
 
-### License
+* My course on IKIGAI (what gets you out of bed every morning)
+* My Team Performance Mastermind
+* My work with teams and individuals in my adaptive coaching programmes
+{{< /admonition >}}
 
-uBlogger is licensed under the **MIT** license.
+{{< admonition type=success title="Organisations I work(ed) with" open=false >}}
+Switzerland:
 
-Check the [LICENSE file](https://github.com/upagge/uBlogger/blob/master/LICENSE) for details.
+* neon Switzerland AG
 
-Thanks to the authors of following resources included in the theme:
+Germany:
 
-* [normalize.css](https://github.com/necolas/normalize.css)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [autocomplete.js](https://github.com/algolia/autocomplete.js)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [$ \KaTeX $](https://katex.org/)
-* [mermaid](https://github.com/knsv/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
+* Abracar
+* Allianz X
+* Develandoo
+* Fairfleet
+* IHK für München und Oberbayern
+* LV1871
+* M-AI Summit
+* Milebox
+* StartUp München
+* wellabe (formerly Bodylabs)
+
+Sweden:
+
+* JCI European Academy
+
+Estonia:
+
+* Conference Organising Academy
+{{< /admonition >}}
+
+## Get in touch
+
+I'm proud to have worked with and helped move forward many innovative organizations who also firmly believe in the sheer power of human personality. If you want to get a glimpse, [contact me](https://cheret.de/contact/)!
 
