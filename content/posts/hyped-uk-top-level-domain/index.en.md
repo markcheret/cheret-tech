@@ -1,5 +1,4 @@
 ---
-weight: 2
 title: 'the all hyped up .uk top level domain'
 date: Fri, 27 Jun 2014 20:37:08 +0000
 draft: false
