@@ -1,4 +1,4 @@
-# Datenschutzerklärung
+# datenschutzerklärung
 
 
 ## Datenschutz

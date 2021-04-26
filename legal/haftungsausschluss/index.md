@@ -1,4 +1,4 @@
-# Haftungsausschluss
+# haftungsausschluss
 
 
 ## Haftung für Inhalte

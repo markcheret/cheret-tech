@@ -1,24 +1,24 @@
-# Imprint
+# imprint
 
 
-## Angaben gemäß § 5 TMG:
+## Angaben gemäß § 5 TMG
 
 CHERET Communications\
 Mark Cheret\
 Gaisbergstraße 1\
 83404 Ainring
 
-## Kontakt:
+## Kontakt
 
 Telefon: +4916097288126\
 E-Mail: mark@cheret.de
 
-## Umsatzsteuer-ID:
+## Umsatzsteuer-ID
 
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:\
 DE253754676
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Representative of the Press European Journalist Legitimation 21-01-12268 8 IPC-EU\
 VG Bild-Kunst Mitgliedsnummer 4086708\
@@ -26,11 +26,12 @@ Mark Cheret\
 Gaisbergstraße 1\
 83404 Ainring
 
-## Quellenangaben für die verwendeten Bilder und Grafiken:
+## Quellenangaben für die verwendeten Bilder und Grafiken
 
 - entweder gemeinfrei
 - oder © CHERET Communications / Mark Cheret
 
-## Quelle:
+## Quelle
+
 Impressumsgenerator, [Rechtsanwalt für Internetrecht](http://www.e-recht24.de) Sören Siebert
 
