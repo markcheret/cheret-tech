@@ -210,7 +210,7 @@ enableEmoji = true
   # site default theme ("light", "dark", "auto")
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/markcheret/footnotes"
+  gitRepo = "https://github.com/markcheret"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
@@ -479,7 +479,7 @@ enableEmoji = true
     # Google Analytics
     [params.analytics.google]
       # [UA-XXXXXXXX-X] google analytics code
-      id = "UA-13106435-14"
+      id = "UA-13106435-21"
       # whether to use gtag linked
       gtag = false
       # whether to anonymize IP
