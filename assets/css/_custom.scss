@@ -2,6 +2,14 @@
 // Custom style
 // ==============================
 
+h1 {
+  color: $global-secondary-color;
+}
+
+h2 {
+  color: $global-secondary-color-dark;
+}
+
 hr {
     margin: 1rem 0;
     position: relative;
@@ -18,7 +26,7 @@ hr {
       .home-avatar {
         img {
           [theme=dark] & {
-            box-shadow: (0 0 0 .1em #8cc643);
+            box-shadow: (0 0 0 .1em $global-background-secondary-color-dark);
           }
         }
       }
@@ -72,5 +80,34 @@ hr {
     [theme=dark] & {
       border-left-color: $blockquote-color-dark;
       background-color: rgba($blockquote-color-dark, .2);
+    }
+  }
+
+  .home[data-home=posts] {
+    .summary {
+      padding-top: 0;
+      padding-bottom: 1rem;
+      margin-bottom: 6rem;
+      border: 2px solid $global-border-color;
+      background: $global-background-color;
+      border-radius: $article-border-radius;
+  
+      [theme=dark] & {
+        border: 2px solid $global-border-color-dark;
+        background: $global-background-secondary-color-dark;
+      }
+  
+      &:hover {
+        cursor: pointer;
+      }
+  
+      .featured-image-preview {
+        margin: 0 auto;
+  
+        &:hover {
+          transform: none;
+        }
+      }
+  
     }
   }
