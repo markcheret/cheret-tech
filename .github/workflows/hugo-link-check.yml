@@ -1,0 +1,2 @@
+- name: Hugo Broken Link Check
+  uses: marccampbell/hugo-linkcheck-action@v0.1.3
