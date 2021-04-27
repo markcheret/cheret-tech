@@ -1,5 +1,5 @@
 # From: https://github.com/marketplace/actions/assign-pr-to-author
-name: AutoAssigner
+name: Assign Author to PR
 on: [pull_request]
 
 jobs:
