@@ -69,7 +69,7 @@ enableEmoji = true
         weight = 1
     [languages.en.params]
       # site description
-      description = "Cyber Security Consultant | Online Content Creator | Exponential Coach"
+      description = "Cyber Security Consultant | Maker. Artist. Sculptor. | Exponential Coach"
       # site keywords
       keywords = ["Security", "Cloud"]
       # App icon config
@@ -121,7 +121,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Mark Cheret"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "<a href='https://cheret.tech'>Cyber Security Consultant</a> | <a href='https://cheret.de'>Exponential Coach</a> | <a href='https://cheret.org'>Online Content Creator</a>"
+          subtitle = "<a href='https://cheret.tech'>Cyber Security Consultant</a> | <a href='https://cheret.de'>Exponential Coach</a> | <a href='https://cheret.org'>Maker. Artist. Sculptor.</a>"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
