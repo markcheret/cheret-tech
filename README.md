@@ -9,3 +9,6 @@ cheret.tech website content
 4. 💪 Opened PR [#28](https://github.com/markcheret/cheret-tech/pull/28) in [markcheret/cheret-tech](https://github.com/markcheret/cheret-tech)
 5. 🎉 Merged PR [#27](https://github.com/markcheret/cheret-tech/pull/27) in [markcheret/cheret-tech](https://github.com/markcheret/cheret-tech)
 <!--END_SECTION:activity-->
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
