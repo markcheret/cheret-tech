@@ -1,0 +1,21 @@
+{
+  "default": true,
+  "fenced-code-language": false,
+  "first-heading-h1": false,
+  "heading-increment": false,
+  "no-trailing-punctuation": false,
+  "first-line-h1": false,
+  "line-length": false,
+  "ul-style": false,
+  "no-inline-html": {
+     "allowed_elements": [ "code" ]
+  },
+  "header-style": {
+    "style": "atx"
+  },
+    "MD003": {
+    "style": "atx"
+  },
+    "MD013": false,
+    "MD033": false
+}
