@@ -8,7 +8,7 @@
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
 <div style="padding:15px;">
 
-I'm a Cyber Security Consultant, Online Content Creator and Exponential Coach. I consistently contribute to international training events run by teams distributed across Europe. My activities range from producing one-week-long academies to managing them on-site or remotely, delivering training, or participating. I have experience in producing more than 300 videos, as well as applying agile methods in getting various startups from the first ideation to profitable operation.
+I'm a Cyber Security Consultant. I consistently contribute to international training events run by teams distributed across Europe. My activities range from producing one-week-long academies to managing them on-site or remotely, delivering training, or participating. I have experience in producing more than 300 videos, as well as applying agile methods in getting various startups from the first ideation to profitable operation.
 
 </div>
 <div style="vertical-align:middle; align:center;">
