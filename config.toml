@@ -243,7 +243,7 @@ enableEmoji = true
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = '<a href="/legal/imprint" target="_self">imprint</a> | <a href="/legal/" target="_self">all legal stuff</a>'
+    custom = '<a href="/legal/imprint/" target="_self">imprint</a> | <a href="/legal/" target="_self">all legal stuff</a>'
     # whether to show Hugo and theme info
     hugo = false
     # whether to show copyright info
@@ -255,7 +255,7 @@ enableEmoji = true
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license= '<a rel="license" href="/legal/license" target="_self">MIT</a>'
+    license= '<a rel="license" href="/legal/license/" target="_self">MIT</a>'
 
   # Section (all posts) page config
   [params.section]
