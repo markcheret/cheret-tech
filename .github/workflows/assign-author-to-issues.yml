@@ -1,0 +1,12 @@
+# From https://github.com/marketplace/actions/assign-author
+on:
+  issues:
+    types: [opened]
+name:  Assign Author to Issue
+jobs:
+  assignAuthor:
+    name: Assign author to issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign author to issue
+        uses: technote-space/assign-author@v1
