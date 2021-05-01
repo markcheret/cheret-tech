@@ -1,7 +1,7 @@
 ---
 title: "First Footnotes Community Meeting"
 description: "Read up on what happened during the first footnotes community meeting. We're opening it up to the public. It will be held on the last Monday of each month."
-date: 2021-05-01T13:47:52+02:00
+date: 2021-04-27T21:47:52+02:00
 draft: false
 categories: ["footnotes"]
 tags: [footnotes, development, WordPress, plugin, community, meeting]
