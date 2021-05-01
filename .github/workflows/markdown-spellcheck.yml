@@ -20,4 +20,6 @@ jobs:
         with:
           node-version: "12"
       - run: npm install -g cspell
+      - run: npm install -g cspell-dict-de-de
+      - run: cspell-dict-de-de-link
       - run: cspell --config ./cSpell.json "**/*.md"
