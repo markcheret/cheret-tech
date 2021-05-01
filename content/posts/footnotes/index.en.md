@@ -1,6 +1,7 @@
 ---
 title: "footnotes"
 date: 2021-03-15T02:07:00+01:00
+lastmod: 2021-05-01T11:24:42 +0200
 tags: [footnotes, WordPress, plugin, development]
 categories: ["footnotes","projects"]
 resources:
@@ -9,6 +10,7 @@ resources:
 hiddenFromHomePage: true
 url: "footnotes"
 draft: false
+upd: "Included info about the footnotes community meeting and our search for volunteers"
 ---
 
 ## This page is about the WordPress plugin footnotes
