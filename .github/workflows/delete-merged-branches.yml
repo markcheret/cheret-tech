@@ -6,6 +6,7 @@ on:
 jobs:
   delete-branch:
     runs-on: ubuntu-latest
+    name: Delete Branch on Closed PR
     steps:
       - name: delete branch
         uses: SvanBoxel/delete-merged-branch@main
