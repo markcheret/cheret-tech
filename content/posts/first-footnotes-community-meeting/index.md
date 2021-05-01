@@ -15,11 +15,11 @@ On 27/04/2021 we held our first footnotes community meeting. This time it was mo
 
 ## What we talked about
 
-- the journey of the footnotes core development team over the past half year, how there was a bit of a rough patch and some storming going on. Now everything is settled and we're bugfixing and releasing at a sustainable pace.
+- the journey of the footnotes core development team over the past half year, how there was a bit of a rough patch and some storming going on. Now everything is settled and we're bug-fixing and releasing at a sustainable pace.
 - the pending 3.0 release which will include a major refactoring of the codebase
 - unit tests and testing infrastructure
 - to promote the need for participation
-- making the community meeting info and the [footnotes GitHub repository](https://github.com/markcheret/footnotes) a part of the plugin's offical readme.txt
+- making the community meeting info and the [footnotes GitHub repository](https://github.com/markcheret/footnotes) a part of the plugin's official readme.txt
 - some project figures
 
 ## Some project figures
