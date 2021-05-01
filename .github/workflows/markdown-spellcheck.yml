@@ -11,7 +11,7 @@ on:
 jobs:
   spellchecking:
     runs-on: ubuntu-latest
-    name: Linting Markdown
+    name: Spell checking Markdown
     steps:
       - uses: actions/checkout@v2
         name: Check out the code
