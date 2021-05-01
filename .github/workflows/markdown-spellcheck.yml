@@ -2,9 +2,11 @@ name: cspell
 
 on:
   push:
+    branches:
+      - **
   pull_request:
     branches:
-      - main
+      - main # only runs on PRs on main branch
 
 jobs:
   spellchecking:
