@@ -21,11 +21,20 @@ It has been under development since 19 March 2014.
 
 The plugin has been featured on [wpmudev](http://premium.wpmudev.org/blog/12-surprisingly-useful-wordpress-plugins-you-dont-know-about/) --- cheers for the review, folks!
 
----
+## Footnotes Community Meetings
+
+We recently held our [first footnotes community meeting](https://cheret.tech/2021/04/first-footnotes-community-meeting/) and it's open to the public.
+
+The meetings will be held on the last Monday of each month at 8pm GMT+02:00 (CET). If you want to join, I have set up a [Google Meet](https://meet.google.com/jrd-gnqf-aao) and you can [add it to your calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MTQzOTc1cXJmZTNqb2RpNmVycTBwaHV0bHFfMjAyMTA1MzFUMTgwMDAwWiBtYXJrQGNoZXJldC5kZQ&tmsrc=mark%40cheret.de&scp=ALL)
 
 ## Ongoing call for developers and contributors
 
-We're looking for developers and contributors for the advancement and support of the plugin.
+We're looking for volunteers to help with the advancement and support of the plugin:
+
+- Ambassadors: To promote the plugin and its usefulness for websites of all categories
+- Support representatives: To help with troubleshooting and interaction with the community in the forums
+- Beta testers: To test development releases against common scenarios
+- Developers: To build the automated testing suite (PHP Unit tests) and help with the overall development of the plugin
 
 {{< youtube HzHaMAAJwbI >}}
 
