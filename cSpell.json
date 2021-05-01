@@ -210,7 +210,7 @@
         "Cheret",
         "IKIGAI",
         "Develandoo",
-        "Fiarfleet",
+        "Fairfleet",
         "Abracar",
         "Milebox",
         "wellabe",
@@ -227,7 +227,8 @@
         "Speelklok",
         "Fren",
         "Kyro",
-        "Helvetica Neue",
+        "Helvetica",
+        "Neue",
         "markcheret",
         "Kübler",
         "Vaynerchuck",
@@ -413,7 +414,7 @@
     ],
     "ignoreRegExpList": [
         "\\((.*)\\)", // Markdown links
-        "\\{\\{\\<.*/g", // Markdown shortcodes
+        "\\{\\{\\<(.*)\\>\\}\\}/g", // Markdown shortcodes
         "```[a-z]*\n[\\s\\S]*?\n```", // Markdown code blocks. h/t https://coderwall.com/p/r6b4xg/regex-to-match-github-s-markdown-code-blocks,
         "\\`([^\\`].*?)\\`", // inline code blocks. h/t https://stackoverflow.com/questions/41274241/how-to-capture-inline-markdown-code-but-not-a-markdown-code-fence-with-regex
         "\\{%.*%\\}", // liquid syntax
