@@ -1,5 +1,5 @@
+# Using info collected from https://seankilleen.com/2021/01/adding-spell-checking-to-my-blogs-build-process-with-github-actions-and-cspell/
 name: cspell
-
 on:
   push:
     branches:
