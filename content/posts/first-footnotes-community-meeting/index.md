@@ -1,5 +1,6 @@
 ---
 title: "First Footnotes Community Meeting"
+description: "Read up on what happened during the first footnotes community meeting. We're opening it up to the public. It will be held on the last Monday of each month."
 date: 2021-05-01T13:47:52+02:00
 draft: false
 categories: ["footnotes"]
@@ -10,6 +11,7 @@ resources:
 ---
 
 On 27/04/2021 we held our first footnotes community meeting. This time it was more or less an internal developer/team meeting and we're opening it up to the public!
+<!-- more -->
 
 ## What we talked about
 
@@ -18,6 +20,15 @@ On 27/04/2021 we held our first footnotes community meeting. This time it was mo
 - unit tests and testing infrastructure
 - to promote the need for participation
 - making the community meeting info and the [footnotes GitHub repository](https://github.com/markcheret/footnotes) a part of the plugin's offical readme.txt
+- some project figures
+
+## Some project figures
+
+- footnotes has 59 reviews with an average rating of 4.6 out of 5 stars
+- our plugin has been downloaded around 125,000 times
+- it's actively running on more than 6,000 websites
+- more than one third of our users are on the latest version
+- we have 18 plugin contributors listed on the [WordPress.org Plugin Page](https://wordpress.org/plugins/footnotes/)
 
 ## The need for participation
 
