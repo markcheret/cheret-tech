@@ -440,7 +440,7 @@ dockerhub:
 # 064: Discord
 discord:
   Weight: 64
-  Prefix: https://discord.gg/
+  Prefix: https://discord.com/users/
   Title: Discord
   Icon:
     Class: svg-social-icon icon-discord
