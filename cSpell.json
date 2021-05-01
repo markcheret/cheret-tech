@@ -206,9 +206,35 @@
         "snyk",
         "SARIF",
         "Snyk",
-        "SNYK"
+        "SNYK",
+        "Cheret",
+        "IKIGAI",
+        "Develandoo",
+        "Fiarfleet",
+        "Abracar",
+        "Milebox",
+        "wellabe",
+        "Oberbayern",
+        "München",
+        "Neistat",
+        "Wintergatan",
+        "Molin",
+        "YouTube",
+        "Sjöberg",
+        "Ómarsson",
+        "Alaina",
+        "Sinek",
+        "Speelklok",
+        "Fren",
+        "Kyro",
+        "Helvetica Neue",
+        "markcheret",
+        "Kübler"
     ],
     "ignoreWords": [
+        "Vlog",
+        "Vlogs",
+        "lastmod",
         "avtodev",
         "seankilleen",
         "devkit",
@@ -381,6 +407,7 @@
     ],
     "ignoreRegExpList": [
         "\\((.*)\\)", // Markdown links
+        "\\{\\{\\<.*/g", // Markdown shortcodes
         "```[a-z]*\n[\\s\\S]*?\n```", // Markdown code blocks. h/t https://coderwall.com/p/r6b4xg/regex-to-match-github-s-markdown-code-blocks,
         "\\`([^\\`].*?)\\`", // inline code blocks. h/t https://stackoverflow.com/questions/41274241/how-to-capture-inline-markdown-code-but-not-a-markdown-code-fence-with-regex
         "\\{%.*%\\}", // liquid syntax
