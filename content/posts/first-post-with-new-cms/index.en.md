@@ -6,7 +6,7 @@ categories: ["online content"]
 draft: false
 resources:
 - name: "featured-image"
-  src: "jason-leung-wQBCIJJgeJI-unsplash.jpg"
+  src: "first-post-with-new-cms.jpg"
 ---
 
 ## after more than a decade
