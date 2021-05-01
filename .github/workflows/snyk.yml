@@ -1,6 +1,8 @@
 name: Snyk 
 
 on: pull_request
+branches-ignore:
+  - '**'
 
 jobs:
   security:
