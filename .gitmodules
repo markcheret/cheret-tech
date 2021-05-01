@@ -4,6 +4,3 @@
 [submodule "content/legal"]
 	path = content/legal
 	url = git@github.com:markcheret/legal.git
-[submodule ".github/workflows"]
-	path = .github/workflows
-	url = git@github.com:markcheret/workflows.git
