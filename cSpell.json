@@ -475,6 +475,8 @@
         "Sacca",
         "microservice",
         "Pagge",
+        "gitops",
+        "gitflow",
         "listserv"
     ],
     "ignorePaths": [
