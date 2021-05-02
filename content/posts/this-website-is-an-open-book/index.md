@@ -3,7 +3,7 @@ title: "This Website Is an Open Book"
 date: 2021-05-02T14:36:41+02:00
 draft: false
 categories: ["online content"]
-tags: [footnotes, development, WordPress, plugin]
+tags: [HUGO, gitops, gitflow, workflow]
 resources:
 - name: "featured-image"
   src: "this-website-is-an-open-book.png"
