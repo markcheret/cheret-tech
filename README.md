@@ -2,6 +2,8 @@
 
 cheret.tech website content
 
+In-depth description of what all this is, how it works and why I do it this way can be found [in this behind-the-scenes article on my website](https://cheret.tech/2021/05/this-website-is-an-open-book/)
+
 ## Contributors
 
 <!-- readme: contributors -start -->
