@@ -8,6 +8,7 @@ tags: [footnotes, development, WordPress, plugin, community, meeting]
 resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
+aliases: ["/2021/05/first-footnotes-community-meeting/"]
 ---
 
 On 27/04/2021 we held our first footnotes community meeting. This time it was more or less an internal developer/team meeting and we're opening it up to the public!
