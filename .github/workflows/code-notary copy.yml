@@ -1,0 +1,23 @@
+name: CodeNotary
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Checkout
+       uses: actions/checkout@master
+     - name: "Download vcn by codenotary.io"
+       run: |
+        curl -L -o /tmp/vcn https://github.com/vchain-us/vcn/releases/download/v0.9.4/vcn-v0.9.4-linux-amd64-static
+        CHECKSUM=$(sha256sum /tmp/vcn | cut -d " " -f 1)
+        echo $CHECKSUM
+        curl -s https://api.codenotary.io/authenticate/$CHECKSUM?org=vchain.us | grep -q :0
+        chmod +x /tmp/vcn
+     - name: "Login to codenotary.io"
+       run: export VCN_OTP_EMPTY="true" && export VCN_USER="${{secrets.CODENOTARY_USER}}" && export VCN_PASSWORD="${{secrets.CODENOTARY_PASS}}" && /tmp/vcn login
+     - name: "Notarize Git Commit with codenotary.io"
+       run: export VCN_NOTARIZATION_PASSWORD="${{secrets.CODENOTARY_PASS}}" && /tmp/vcn n -p --attr GitHub="${GITHUB_SHA:0:7}" git://$GITHUB_WORKSPACE
+     - name: "Authenticate Git Commit with codenotary.io"
+       run: /tmp/vcn a git://$GITHUB_WORKSPACE
