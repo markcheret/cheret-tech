@@ -18,6 +18,6 @@ jobs:
      - name: "Login to codenotary.io"
        run: export VCN_OTP_EMPTY="true" && export VCN_USER="${{secrets.CODENOTARY_USER}}" && export VCN_PASSWORD="${{secrets.CODENOTARY_PASS}}" && /tmp/vcn login
      - name: "Notarize Git Commit with codenotary.io"
-       run: export VCN_NOTARIZATION_PASSWORD="${{secrets.CODENOTARY_PASS}}" && /tmp/vcn n -p --attr GitHub="${GITHUB_SHA:0:7}" git://$GITHUB_WORKSPACE
-     - name: Verify
-       uses: vchain-us/verify-action@master
+       run: export VCN_NOTARIZATION_PASSWORD="${{secrets.CODENOTARY_PASS}}" && /tmp/vcn n -S -p --attr GitHub="${GITHUB_SHA:0:7}" git://$GITHUB_WORKSPACE
+     - name: "Authenticate Git Commit with codenotary.io"
+       run: /tmp/vcn a git://$GITHUB_WORKSPACE
