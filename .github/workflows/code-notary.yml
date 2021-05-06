@@ -1,4 +1,4 @@
-name: CodeNotary
+name: CodeNotary Notarize Assets
 
 on: [push]
 
