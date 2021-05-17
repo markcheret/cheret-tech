@@ -277,7 +277,7 @@ enableEmoji = true
 
   # Comment config
   [params.comment]
-    enable = true
+    enable = false
     [params.comment.remark42]
       enable = false
       host = "https://comments.upagge.ru"
@@ -285,9 +285,9 @@ enableEmoji = true
       locale = "en"
     # Disqus comment config (https://disqus.com/)
     [params.comment.disqus]
-      enable = true
+      enable = false
       # Disqus shortname to use Disqus in posts
-      shortname = "mark-cheret-cyber-security-consultant"
+      shortname = ""
     # Gitalk comment config (https://github.com/gitalk/gitalk)
     [params.comment.gitalk]
       enable = false
