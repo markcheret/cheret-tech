@@ -24,8 +24,4 @@ Auf unseren Seiten sind Funktionen des Dienstes Twitter eingebunden. Diese Funkt
 
 ## Quellenangaben
 
-[eRecht24 Disclaimer](https://www.e-recht24.de/muster-disclaimer.htm),
-[Facebook Datenschutzerklärung](https://www.e-recht24.de/artikel/datenschutz/6590-facebook-like-button-datenschutz-disclaimer.html),
-[Datenschutzerklärung Google Analytics](https://www.google.com/intl/de/analytics/privacyoverview.html),
-[eRecht24 Datenschutzerklärung Google Adsense](https://www.e-recht24.de/artikel/datenschutz/6635-datenschutz-rechtliche-risiken-bei-der-nutzung-von-google-analytics-und-googleadsense.html), Google +1 Bedingungen,
-[Datenschutzerklärung für Twitter](https://twitter.com/privacy)
+[eRecht24 Disclaimer](https://www.e-recht24.de/muster-disclaimer.htm), [Facebook Datenschutzerklärung](https://www.e-recht24.de/artikel/datenschutz/6590-facebook-like-button-datenschutz-disclaimer.html), [Datenschutzerklärung Google Analytics](https://www.google.com/intl/de/analytics/privacyoverview.html), [eRecht24 Datenschutzerklärung Google Adsense](https://www.e-recht24.de/artikel/datenschutz/6635-datenschutz-rechtliche-risiken-bei-der-nutzung-von-google-analytics-und-googleadsense.html), [Datenschutzerklärung für Twitter](https://twitter.com/privacy)
