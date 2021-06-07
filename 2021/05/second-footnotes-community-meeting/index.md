@@ -8,7 +8,7 @@ On 31/05/2021 we held our second footnotes community meeting. This time it was p
 
 ## What we talked about
 
-- I screen-shared the [First Footnotes Community Meeting Post](2021/04/first-footnotes-community-meeting/) and went through the kind of people we're looking for to further enhance the plugin
+- I screen-shared the [First Footnotes Community Meeting Post](https://cheret.tech/2021/04/first-footnotes-community-meeting/) and went through the kind of people we're looking for to further enhance the plugin
 - Version 3.0 will be coming soon
 - The settings menu will receive a considerable overhaul
 - further stability improvements
