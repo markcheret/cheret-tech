@@ -15,7 +15,7 @@ draft: false
 
 If you're reading these lines, I bet you're using [footnotes](https://cheret.tech/footnotes/) the free WordPress plugin that a team of volunteers provides. It has been under development since 19 March 2014.
 
-As I'm receiving many emails to my personal or company inbox asking for support with this free plugin, I'm letting you know how to actually recieve support for the plugin at an appropriate place.
+As I'm receiving many emails to my personal or company inbox asking for support with this free plugin, I'm letting you know how to actually receive support for the plugin at an appropriate place.
 
 ## WordPress.org Support Forum
 
