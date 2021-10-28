@@ -6,7 +6,7 @@ categories: ["footnotes","projects"]
 resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 url: "footnotes-support"
 draft: false
 ---

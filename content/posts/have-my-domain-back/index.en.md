@@ -6,6 +6,7 @@ tags: ['review','tech']
 resources:
 - name: "featured-image"
   src: "uk-logo.gif"
+hiddenFromHomePage: true
 upd: "This used to be one wall of text. I made it all beautiful with headers."
 description: "Describing the race against time when failing to adhere to data quality guidelines."
 ---

@@ -7,6 +7,7 @@ draft: false
 resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
+hiddenFromHomePage: true
 ---
 
 In the development of the WordPress plugin [footnotes](https://wordpress.org/plugins/footnotes/), we shipped a broken version that crashed websites for arond four hours starting from 08:37 am. Here is the short version. If you want to dive deeper, check out [this forum post](https://wordpress.org/support/topic/2-5-10-reverts-2-5-9d1-and-apologies/#post-14122644)
