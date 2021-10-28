@@ -8,6 +8,7 @@ resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
 toc: true
+hiddenFromHomePage: true
 ---
 
 Dear footnotes community,

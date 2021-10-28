@@ -8,6 +8,7 @@ tags: [footnotes, development, WordPress, plugin, community, meeting]
 resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
+hiddenFromHomePage: true
 ---
 
 On 31/05/2021 we held our second footnotes community meeting. This time it was public! Since it's relatively new and the meetings with the core developers happened another day due to scheduling, I was alone. Nonetheless, here's the update:

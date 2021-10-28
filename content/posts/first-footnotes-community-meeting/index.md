@@ -8,6 +8,7 @@ tags: [footnotes, development, WordPress, plugin, community, meeting]
 resources:
 - name: "featured-image"
   src: "banner-1544x500.jpg"
+hiddenFromHomePage: true
 aliases: ["/2021/05/first-footnotes-community-meeting/"]
 ---
 
