@@ -12,7 +12,6 @@ Allgemeine Geschäftsbedingungen und [Ehrenkodex](https://de.wikipedia.org/wiki/
 Wer jetzt ernsthaft davon überzeugt ist, dass
 
 - ich mir die Website mit so einem ellenlangen Text vollkleistere, den sowieso niemand ernsthaft liest oder
-- dass ich genug davon habe, mir meine eigene AGB zu meinem Nachteil auslegen zu lassen
 - ich  als Einzelunternehmer im Nebenerwerb einen Anwalt bezahle, der mir alle halbe Jahr eine Lupenreine AGB strickt oder
 - ich mich alternativ von einem anderen Anwalt verklagen lasse, weil er seine AGB Strickmuster in meinem Exemplar zu finden glaubt
 
