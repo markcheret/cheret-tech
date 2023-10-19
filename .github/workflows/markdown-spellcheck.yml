@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Spell checking Markdown
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Check out the code
       - uses: actions/setup-node@v3
         name: Run spell check
