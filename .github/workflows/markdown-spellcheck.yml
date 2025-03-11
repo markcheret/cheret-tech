@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v3
         name: Run spell check
         with:
-          node-version: "12"
+          node-version: "22"
       - run: npm install -g cspell
       - run: npm install -g cspell-dict-de-de
       - run: cspell-dict-de-de-link
